@@ -111,8 +111,8 @@ export function CrashGame() {
   }, [])
 
   return (
-    <div className="w-full min-h-screen bg-[#1a1d24] p-4">
-      <div className="max-w-4xl mx-auto">
+    <div className="w-full min-h-screen bg-[#1a1d24] p-4" >
+      <div className="max-w-4xl mx-auto" style={{ backgroundImage: "url('wp.png')" }}>
         <div className="grid gap-4 bg-[#1e2328] rounded-lg p-4">
           <div className="grid md:grid-cols-[300px,1fr] gap-4">
             <GameControls
